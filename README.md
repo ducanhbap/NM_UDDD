@@ -39,3 +39,8 @@ Thực thi lệnh php artisan migrate tại thư mục gốc.
 
 Step 6: Seed dữ liệu mẫu
 Thực thi lệnh php artisan db:seed tại thư mục gốc. Lưu ý nếu xảy ra lỗi trùng khóa trong quá trình seed thì đó là lỗi lường trước. Trong trường hợp đó thực hiện php artisan migrate:refresh để cài đặt lại cấu trúc bảng và chạy lại bước 6.
+
+Bước tiếp theo là cài databade:
+vào đường dẫn SourceOpen/public/db_banhang.sql  import vào database MySQL
+
+và cuối cùng tải sourcode ANDROID và ISO (AndroidStudio ,X-CODE) nếu cần .
