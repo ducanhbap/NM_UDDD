@@ -88,6 +88,10 @@
         "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\layout\\dong_dienthoai.xml"
     },
     {
+        "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_banh_pizza.xml.flat",
+        "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\layout\\activity_banh_pizza.xml"
+    },
+    {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\minh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0c5db03fce957b96720cbd16f6a5271d\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -208,6 +212,10 @@
         "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_banhman.xml.flat",
+        "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\layout\\dong_banhman.xml"
+    },
+    {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\minh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0c5db03fce957b96720cbd16f6a5271d\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -326,6 +334,10 @@
     {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\minh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0c5db03fce957b96720cbd16f6a5271d\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_banh_man.xml.flat",
+        "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\layout\\activity_banh_man.xml"
     },
     {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
@@ -1430,6 +1442,10 @@
     {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\minh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0c5db03fce957b96720cbd16f6a5271d\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\layout_dong_banhpizza.xml.flat",
+        "source": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\src\\main\\res\\layout\\dong_banhpizza.xml"
     },
     {
         "merged": "C:\\Users\\minh\\Desktop\\AppBanHang3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

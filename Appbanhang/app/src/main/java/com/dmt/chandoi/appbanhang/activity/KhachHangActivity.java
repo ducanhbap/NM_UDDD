@@ -56,7 +56,7 @@ public class KhachHangActivity extends AppCompatActivity {
                                 StringRequest stringRequest1=new StringRequest(Request.Method.POST, Server.duongdanchitietdonhang, new Response.Listener<String>() {
                                     @Override
                                     public void onResponse(String response) {
-                                        if(response.equals("success")){
+                                        if(response.equals("1")){
                                             MainActivity.mangGioHang.clear();
                                             Toast.makeText(KhachHangActivity.this, "Bạn đã thêm giỏ hàng thành công", Toast.LENGTH_SHORT).show();
                                                 startActivity(new Intent(KhachHangActivity.this,MainActivity.class));
@@ -90,6 +90,7 @@ public class KhachHangActivity extends AppCompatActivity {
                                         }
                                         HashMap<String,String>hashMap=new HashMap<String, String>();
                                         hashMap.put("json",jsonArray.toString());
+
                                         return hashMap;
                                     }
                                 };

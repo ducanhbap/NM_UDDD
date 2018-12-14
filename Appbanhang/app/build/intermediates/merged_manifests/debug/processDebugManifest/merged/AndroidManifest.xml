@@ -35,7 +35,6 @@
         <activity android:name="com.dmt.chandoi.appbanhang.activity.DienThoaiActivity" />
         <activity android:name="com.dmt.chandoi.appbanhang.activity.LienHeActivity" />
         <activity android:name="com.dmt.chandoi.appbanhang.activity.ThongTinActivity" />
-        <activity android:name="com.dmt.chandoi.appbanhang.activity.LapTopActivity" />
         <activity android:name="com.dmt.chandoi.appbanhang.activity.ChiTietActivity" />
         <activity android:name="com.dmt.chandoi.appbanhang.activity.GioHangActivity" />
         <activity android:name="com.dmt.chandoi.appbanhang.activity.KhachHangActivity" />

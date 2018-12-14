@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class DienThoaiActivity extends AppCompatActivity {
+public class BanhManActivity extends AppCompatActivity {
     Toolbar toolbarDt;
     ListView lvdt;
     DienThoaiAdapter dienThoaiAdapter;
@@ -51,7 +51,6 @@ public class DienThoaiActivity extends AppCompatActivity {
         getIdloaisp();
         actionToolbar();
         getData(page);
-
         clickItemListView();
     }
 
@@ -59,7 +58,7 @@ public class DienThoaiActivity extends AppCompatActivity {
         lvdt.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent=new Intent(DienThoaiActivity.this,ChiTietActivity.class);
+                Intent intent=new Intent(BanhManActivity.this,ChiTietActivity.class);
                 intent.putExtra("chitietsanpham",mangdt.get(i));
                 startActivity(intent);
             }
@@ -84,7 +83,7 @@ public class DienThoaiActivity extends AppCompatActivity {
 
 
     private void getData(int Page) {
-        RequestQueue requestQueue= Volley.newRequestQueue(DienThoaiActivity.this);
+        RequestQueue requestQueue= Volley.newRequestQueue(BanhManActivity.this);
         String duongdan= Server.duongdandienthoai+Page;
         StringRequest str=new StringRequest(Request.Method.POST, duongdan, new Response.Listener<String>() {
             @Override
@@ -118,7 +117,7 @@ public class DienThoaiActivity extends AppCompatActivity {
                 return param;
             }
         }
-        ;
+                ;
         requestQueue.add(str);
     }
 
@@ -142,7 +141,7 @@ public class DienThoaiActivity extends AppCompatActivity {
         toolbarDt= (Toolbar) findViewById(R.id.toolbar_dienthoai);
         lvdt= (ListView) findViewById(R.id.lv_dienthoai);
         mangdt=new ArrayList<>();
-        dienThoaiAdapter=new DienThoaiAdapter(DienThoaiActivity.this,mangdt);
+        dienThoaiAdapter=new DienThoaiAdapter(BanhManActivity.this,mangdt);
         lvdt.setAdapter(dienThoaiAdapter);
     }
     @Override
@@ -154,7 +153,7 @@ public class DienThoaiActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.menu_giohang){
-            Intent intent=new Intent(DienThoaiActivity.this,GioHangActivity.class);
+            Intent intent=new Intent(BanhManActivity.this,GioHangActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

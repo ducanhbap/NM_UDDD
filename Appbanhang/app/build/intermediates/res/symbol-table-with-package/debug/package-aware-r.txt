@@ -914,6 +914,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageviewBanhPizza
 id img_chitietsanpham
 id img_dienthoai
 id img_giohang
@@ -929,6 +930,7 @@ id line1
 id line3
 id listMode
 id list_item
+id listviewBanhPizza
 id lv_dienthoai
 id lv_giohang
 id lv_laptop
@@ -1004,10 +1006,14 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textviewBanhPizza
+id textviewgiaBanhPizza
+id textviewmotaBanhPizza
 id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbarBanhPizza
 id toolbar_chitietsanpham
 id toolbar_dienthoai
 id toolbar_giohang
@@ -1076,6 +1082,8 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_banh_man
+layout activity_banh_pizza
 layout activity_chi_tiet
 layout activity_dien_thoai
 layout activity_gio_hang
@@ -1096,6 +1104,8 @@ layout design_navigation_item_separator
 layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
+layout dong_banhman
+layout dong_banhpizza
 layout dong_dienthoai
 layout dong_giohang
 layout dong_laptop

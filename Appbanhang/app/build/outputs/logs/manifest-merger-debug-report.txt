@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:design:23.4.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\8d189cf90ddba476d17524258e15fcc4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0c5db03fce957b96720cbd16f6a5271d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\451465956de502e510e9219704caf50f\AndroidManifest.xml:16:1-25:12
@@ -23,20 +23,20 @@ MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\minh\.gradle\c
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2862031fe7d0b23a11f9e68cbbd80db3\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f70f0c6fce099325ae9c1e5d2f1c2849\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9c2ca13de741b5f896e2396857f3f8e9\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:2:11-69
@@ -53,7 +53,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\minh\.gr
 	android:name
 		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:8:5-30:19
+ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.android.support:design:23.4.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\8d189cf90ddba476d17524258e15fcc4\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.4.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\design-23.4.0.aar\8d189cf90ddba476d17524258e15fcc4\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\minh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\0c5db03fce957b96720cbd16f6a5271d\AndroidManifest.xml:25:5-29:19
@@ -130,22 +130,18 @@ activity#com.dmt.chandoi.appbanhang.activity.ThongTinActivity
 ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:25:9-63
 	android:name
 		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:25:19-60
-activity#com.dmt.chandoi.appbanhang.activity.LapTopActivity
-ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:26:9-61
-	android:name
-		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:26:19-58
 activity#com.dmt.chandoi.appbanhang.activity.ChiTietActivity
+ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:26:19-59
+activity#com.dmt.chandoi.appbanhang.activity.GioHangActivity
 ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:27:9-62
 	android:name
 		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:27:19-59
-activity#com.dmt.chandoi.appbanhang.activity.GioHangActivity
-ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:28:9-62
-	android:name
-		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:28:19-59
 activity#com.dmt.chandoi.appbanhang.activity.KhachHangActivity
-ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:29:9-73
+ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:28:9-73
 	android:name
-		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:29:19-61
+		ADDED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml:28:19-61
 uses-sdk
 INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\minh\Desktop\AppBanHang3\app\src\main\AndroidManifest.xml

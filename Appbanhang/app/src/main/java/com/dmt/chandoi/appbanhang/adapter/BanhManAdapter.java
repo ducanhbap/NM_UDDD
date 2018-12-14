@@ -19,44 +19,44 @@ import java.util.ArrayList;
  * Created by Admin on 4/15/2018.
  */
 
-public class LapTopAdapter extends BaseAdapter{
+public class BanhManAdapter extends BaseAdapter{
     Context context;
-    ArrayList<SanPham> arrayLapTop;
+    ArrayList<SanPham>arrayDienThoai;
 
-    public LapTopAdapter(Context context, ArrayList<SanPham> arrayLaptop) {
+    public BanhManAdapter(Context context, ArrayList<SanPham> arrayDienThoai) {
         this.context = context;
-        this.arrayLapTop = arrayLaptop;
+        this.arrayDienThoai = arrayDienThoai;
     }
 
     @Override
     public int getCount() {
-        return arrayLapTop.size();
+        return arrayDienThoai.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return arrayLapTop.get(i);
+        return null;
     }
 
     @Override
     public long getItemId(int i) {
-        return i;
+        return 0;
     }
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         LayoutInflater layoutInflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        view=layoutInflater.inflate(R.layout.dong_laptop,null);
-        TextView tvTen=view.findViewById(R.id.tv_laptop);
-        TextView tvMoTa=view.findViewById(R.id.tv_motalaptop);
-        TextView tvGia=view.findViewById(R.id.tv_gialaptop);
-        ImageView imgHinhanh=view.findViewById(R.id.img_laptop);
-        tvTen.setText(arrayLapTop.get(i).getTensanpham());
+        view=layoutInflater.inflate(R.layout.dong_dienthoai,null);
+        TextView tvtendienthoai=view.findViewById(R.id.tv_dienthoai);
+        TextView tvGiadienthoai=view.findViewById(R.id.tv_giadienthoai);
+        TextView tvMota=view.findViewById(R.id.tv_motadienthoai);
+        ImageView imgdienthoai=view.findViewById(R.id.img_dienthoai);
+        tvtendienthoai.setText(arrayDienThoai.get(i).getTensanpham());
         DecimalFormat decimalFormat=new DecimalFormat("###,###,###");
-        tvGia.setText("Giá "+decimalFormat.format(arrayLapTop.get(i).getGiasanpham())+" Đ");
-        tvMoTa.setMaxLines(2);
-        tvMoTa.setText(arrayLapTop.get(i).getMotasanpham());
-        Picasso.with(context).load(arrayLapTop.get(i).getHinhanhsanpham()).centerCrop().resize(150,150).into(imgHinhanh);
+        tvGiadienthoai.setText("Giá :"+decimalFormat.format(arrayDienThoai.get(i).getGiasanpham())+" Đ");
+        tvMota.setMaxLines(2);
+        tvMota.setText(arrayDienThoai.get(i).getMotasanpham());
+        Picasso.with(context).load(arrayDienThoai.get(i).getHinhanhsanpham()).centerCrop().resize(150,150).into(imgdienthoai);
         return view;
     }
 
