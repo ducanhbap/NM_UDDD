@@ -7,7 +7,8 @@ NerverGiverUp là project được lập nên nhằm mục đích tìm hiểu La
 Trang chủ chính thức
 Thảo luận về project SHOP vui lòng vui lòng liên hệ nhóm ADM.
 
-Demo
+Video Demo:
+https://drive.google.com/open?id=1AuyMlLAPMmOdhU_8k0GftE4Jqb8z2VzR
 link trang web: https://nevergiveup1.000webhostapp.com/
 Cài đặt phát triển (development)
 Lưu ý: SHOP yêu cầu xampp 7.1.2 cho tương thích 100% hoặc trở lên. Hướng dẫn cài đặt upload lên host   sẽ được cập nhật sau.
