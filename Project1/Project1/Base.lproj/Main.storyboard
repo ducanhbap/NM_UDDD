@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg05.png" translatesAutoresizingMaskIntoConstraints="NO" id="VoS-m5-JFB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgmain01.png" translatesAutoresizingMaskIntoConstraints="NO" id="VoS-m5-JFB">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBD-kr-z76">
@@ -107,34 +107,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg03.png" highlightedImage="bg03.png" translatesAutoresizingMaskIntoConstraints="NO" id="g5s-gq-m6G" userLabel="Img Back Ground" propertyAccessControl="none">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgmain02.png" highlightedImage="bgmain02.png" translatesAutoresizingMaskIntoConstraints="NO" id="g5s-gq-m6G" userLabel="Img Back Ground" propertyAccessControl="none">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1y-6u-R8V">
                                 <rect key="frame" x="87.5" y="145" width="200" height="30"/>
-                                <color key="backgroundColor" red="0.67856332098566741" green="0.78039993523316065" blue="0.2828780266212918" alpha="0.62302486795774648" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="VoZ-Ra-b80"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="70" id="gSS-Lq-aHL"/>
                                     <constraint firstAttribute="width" constant="200" id="ynl-xu-qVS"/>
                                 </constraints>
-                                <state key="normal" title="Action"/>
+                                <state key="normal" title="Action">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
                                 <connections>
                                     <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="WlS-Ue-PFU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q18-x4-Za5">
                                 <rect key="frame" x="87.5" y="233" width="200" height="30"/>
-                                <color key="backgroundColor" red="0.80000000000000004" green="0.52156862745098043" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Happyness"/>
+                                <state key="normal" title="Happyness">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="dDs-eF-Hoi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7p-oy-tFf">
                                 <rect key="frame" x="87.5" y="321" width="200" height="30"/>
-                                <color key="backgroundColor" red="0.38382178544998169" green="0.91841226816177368" blue="0.59390616416931152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Friendship"/>
+                                <state key="normal" title="Friendship">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="fQc-kG-MkX"/>
                                 </connections>
@@ -168,8 +172,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg03.png" width="1080" height="1920"/>
-        <image name="bg05.png" width="1125" height="2436"/>
+        <image name="bgmain01.png" width="1080" height="1920"/>
+        <image name="bgmain02.png" width="1242" height="2208"/>
         <image name="view-details.png" width="1600" height="1600"/>
     </resources>
 </document>
