@@ -46,7 +46,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA9-jr-ihM">
-                                <rect key="frame" x="326" y="544" width="33" height="16"/>
+                                <rect key="frame" x="16" y="544" width="343" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="E4v-ht-3CG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -114,18 +117,24 @@
                                 </constraints>
                                 <state key="normal" title="Action"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SegueQuoteToCat" id="cfp-Kv-lk6"/>
+                                    <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="WlS-Ue-PFU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q18-x4-Za5">
+                            <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q18-x4-Za5">
                                 <rect key="frame" x="87.5" y="233" width="200" height="30"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.52156862745098043" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Happyness"/>
+                                <connections>
+                                    <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="dDs-eF-Hoi"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7p-oy-tFf">
-                                <rect key="frame" x="87.5" y="318" width="200" height="30"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7p-oy-tFf">
+                                <rect key="frame" x="87.5" y="321" width="200" height="30"/>
                                 <color key="backgroundColor" red="0.38382178544998169" green="0.91841226816177368" blue="0.59390616416931152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Friendship"/>
+                                <connections>
+                                    <action selector="categoryChoice_Tapped:" destination="Ret-Ov-qUj" eventType="touchUpInside" id="fQc-kG-MkX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -136,12 +145,15 @@
                             <constraint firstItem="b1y-6u-R8V" firstAttribute="centerX" secondItem="7wS-aC-RJ0" secondAttribute="centerX" id="IVE-fT-q3o"/>
                             <constraint firstItem="a7p-oy-tFf" firstAttribute="centerX" secondItem="7wS-aC-RJ0" secondAttribute="centerX" id="Qs1-1N-yyv"/>
                             <constraint firstItem="q18-x4-Za5" firstAttribute="width" secondItem="b1y-6u-R8V" secondAttribute="width" id="XWa-1m-YMp"/>
-                            <constraint firstItem="a7p-oy-tFf" firstAttribute="top" secondItem="q18-x4-Za5" secondAttribute="bottom" constant="55" id="bM5-Jn-exO"/>
+                            <constraint firstItem="a7p-oy-tFf" firstAttribute="top" secondItem="q18-x4-Za5" secondAttribute="bottom" constant="58" id="bM5-Jn-exO"/>
                             <constraint firstItem="q18-x4-Za5" firstAttribute="centerX" secondItem="7wS-aC-RJ0" secondAttribute="centerX" id="cko-7J-tr0"/>
                             <constraint firstItem="b1y-6u-R8V" firstAttribute="top" secondItem="7Ah-GQ-rlH" secondAttribute="top" constant="125" id="dme-lX-SMY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Ah-GQ-rlH"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="SegueCatToQuote" id="0bu-L1-yUs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J2g-m9-dy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

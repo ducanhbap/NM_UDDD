@@ -9,10 +9,19 @@
 import UIKit
 
 class CategoryController : UIViewController{
+    //MARK: UI Events
+   var type = -1
+    @IBAction func categoryChoice_Tapped(_ sender: UIButton) {
+        type = sender.tag
+        
+        performSegue(withIdentifier: "SegueCatToQuote", sender: self)
+    }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SegueCatToQute"{
             let destinationController = segue.destination as! ViewController
-            destinationController.quoteType = 0
+            destinationController.quoteType = type
         }
     }
 
