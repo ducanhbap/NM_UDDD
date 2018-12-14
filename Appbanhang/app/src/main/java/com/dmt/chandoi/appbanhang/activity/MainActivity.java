@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
                         tensanham = object.getString("tensp");
                         gia = object.getInt("giasp");
                         hinhanh = "http://192.168.1.4/SourceOpen/public/source/image/product/"+object.getString("hinhanhsp");
-                        Toast.makeText(MainActivity.this,Integer.toString(gia), Toast.LENGTH_LONG).show();
+
                         //http://192.168.1.4/SourceOpen/public/source/image/product/111.jpg
                         mota = object.getString("motasp");
                         idsp = object.getInt("idloaisp");
@@ -316,7 +316,9 @@ public class MainActivity extends AppCompatActivity {
                         id = object.getInt("id");
                         tensanham = object.getString("tensp");
                         gia = object.getInt("giasp");
-                        hinhanh = object.getString("http://192.168.1.4/SourceOpen/public/source/image/product/"+"hinhanhsp.jpg");
+                        hinhanh = "http://192.168.1.4/SourceOpen/public/source/image/product/"+object.getString("hinhanhsp");
+                     //   Toast.makeText(MainActivity.this,Integer.toString(gia), Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this,"hello", Toast.LENGTH_LONG).show();
                         mota = object.getString("motasp");
                         idsp = object.getInt("idsp");
                         mangSanpham.add(new SanPham(id, tensanham, gia, hinhanh, mota, idsp));

@@ -94,7 +94,7 @@ public class DienThoaiActivity extends AppCompatActivity {
                         int dodai=json.length();
                         for(int i=0;i<json.length();i++){
                             JSONObject object=json.getJSONObject(i);
-                            mangdt.add(new SanPham(object.getInt("id"),object.getString("tensp"),object.getInt("giasp"),object.getString("hinhanhsp"),object.getString("motasp"),object.getInt("idsanpham")));
+                            mangdt.add(new SanPham(object.getInt("id"),object.getString("tensp"),object.getInt("giasp"),"http://192.168.1.4/SourceOpen/public/source/image/product/"+object.getString("hinhanhsp"),object.getString("motasp"),object.getInt("idsp")));
                             dienThoaiAdapter.notifyDataSetChanged();
                         }
                     } catch (JSONException e) {
