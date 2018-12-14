@@ -19,27 +19,19 @@ class ViewController: UIViewController {
     var quotes = [String]()
     var authors = [String]()
     var selectedIndex: Int = -1
+    var quoteType = -1
     
     // MARK: Events
-    @IBAction func btnAction_Tapped(_ sender: UIButton) {
-
+    func genarateRandomIndex(upperbound: Int) -> Int {
         var newIndex = -1
         
         repeat{
-            newIndex = Int(arc4random_uniform(UInt32(quotes.count)))
+            newIndex = Int(arc4random_uniform(UInt32(upperbound)))
         }
-        while(newIndex == selectedIndex)
+            while(newIndex == selectedIndex)
         
-        selectedIndex = newIndex
-        
-        lblQuote.text = quotes[selectedIndex]
-        lblAuthors.text=authors[selectedIndex]
-        
-        imgBackGround.image=UIImage(named: "bg0\(selectedIndex).png")
-        
-        print(selectedIndex)
+        return newIndex
     }
-    
     
     // MARK: Xử lí dành cho ViewControler riêng
     override func viewDidLoad() {
@@ -53,6 +45,14 @@ class ViewController: UIViewController {
         quotes.append("Practice like you've never won. Perform like you've never lost")
         
         authors=["Charles R.Swindoll","","Nikos Karantrakis","Alexander The Great","No Name","No Name","No Name"]
+        
+        selectedIndex = genarateRandomIndex(upperbound: quotes.count)
+        
+        lblQuote.text = quotes[selectedIndex]
+        lblAuthors.text=authors[selectedIndex]
+        imgBackGround.image=UIImage(named: "bg0\(selectedIndex).png")
+        print(selectedIndex)
+        
     }
     
     override func didReceiveMemoryWarning() {

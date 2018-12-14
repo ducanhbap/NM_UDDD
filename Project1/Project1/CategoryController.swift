@@ -9,5 +9,11 @@
 import UIKit
 
 class CategoryController : UIViewController{
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "SegueCatToQute"{
+            let destinationController = segue.destination as! ViewController
+            destinationController.quoteType = 0
+        }
+    }
 
 }
