@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     case 2: {
                         if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
-                            Intent intent = new Intent(MainActivity.this, LapTopActivity.class);
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
                             intent.putExtra("idloaisanpham", 2);
                             startActivity(intent);
                         } else {
@@ -121,13 +121,63 @@ public class MainActivity extends AppCompatActivity {
                     }
                     case 3: {
                         if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
+                            intent.putExtra("idloaisanpham", 3);
+                            startActivity(intent);
+                        } else {
+                        }
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    }
+                    case 4: {
+                        if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
+                            intent.putExtra("idloaisanpham", 4);
+                            startActivity(intent);
+                        } else {
+                        }
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    }
+                    case 5: {
+                        if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
+                            intent.putExtra("idloaisanpham", 5);
+                            startActivity(intent);
+                        } else {
+                        }
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    }
+                    case 6: {
+                        if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
+                            intent.putExtra("idloaisanpham", 6);
+                            startActivity(intent);
+                        } else {
+                        }
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    }
+                    case 7: {
+                        if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
+                            Intent intent = new Intent(MainActivity.this, DienThoaiActivity.class);
+                            intent.putExtra("idloaisanpham", 7);
+                            startActivity(intent);
+                        } else {
+                        }
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    }
+                    case 8: {
+                        if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
                             Intent intent = new Intent(MainActivity.this, LienHeActivity.class);
                             startActivity(intent);
                         }
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     }
-                    case 4: {
+                    case 9: {
                         if (CheckConnection.haveNetworkConnection(MainActivity.this)) {
                             Intent intent = new Intent(MainActivity.this, ThongTinActivity.class);
                             startActivity(intent);
@@ -135,6 +185,9 @@ public class MainActivity extends AppCompatActivity {
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                     }
+
+
+
                 }
             }
         });
