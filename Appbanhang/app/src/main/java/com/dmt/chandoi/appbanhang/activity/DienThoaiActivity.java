@@ -51,6 +51,7 @@ public class DienThoaiActivity extends AppCompatActivity {
         getIdloaisp();
         actionToolbar();
         getData(page);
+
         clickItemListView();
     }
 
